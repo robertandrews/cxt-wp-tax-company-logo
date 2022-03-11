@@ -1,7 +1,7 @@
 # Context WP Company Term ACF Logo & Favicon Organiser
 
 Tested up to: 5.9.1  
-Tags: wordpress, acf, image 
+Tags: wordpress, acf, image  
 Contributors: robertandrews  
 
 ## Description
