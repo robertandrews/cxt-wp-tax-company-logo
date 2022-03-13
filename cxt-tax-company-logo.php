@@ -117,7 +117,7 @@ function company_logo_rename($file)
         $info = pathinfo($file['name']);
         $ext  = empty($info['extension']) ? '' : '.' . $info['extension'];
         $name = basename($file['name'], $ext);
-        $file['name'] = $slug = $term->slug; . $ext;
+        $file['name'] = $term->slug . $ext;
 
         //
         add_action('add_attachment', 'my_set_image_meta_upon_image_upload');
